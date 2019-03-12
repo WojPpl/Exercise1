@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestHelloServlet
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.13 s <<< FAILURE! - in TestHelloServlet
+dont_greet_if_name_is_null(TestHelloServlet)  Time elapsed: 0.084 s  <<< ERROR!
+java.lang.NullPointerException
+	at TestHelloServlet.dont_greet_if_name_is_null(TestHelloServlet.java:19)
+
